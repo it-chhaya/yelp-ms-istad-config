@@ -1,11 +1,2 @@
 business:
   info: Business Microservice Default
-spring:
-  jpa:
-    hibernate:
-      ddl-auto: create-drop
-  datasource:
-    url: jdbc:postgresql://localhost:5432/db_name
-    username: postgres
-    password: qwer
-    driver-class-name: org.postgresql.Driver
