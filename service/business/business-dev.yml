@@ -1,13 +1,11 @@
-business:
-  info: Business Microservice Development
 spring:
   jpa:
     hibernate:
       ddl-auto: create-drop
   datasource:
-    url: jdbc:postgresql://localhost:4002/postgres
-    username: postgres
-    password: qwer
+    url: jdbc:postgresql://localhost:5168/business
+    username: admin
+    password: admin2024
     driver-class-name: org.postgresql.Driver
   servlet:
     multipart:
